@@ -1,0 +1,31 @@
+{
+	"name": "SquareInTheAir",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"adm-zip": "^0.4.7",
+		"plist": "^2.1.0",
+		"react": "^16.0.0",
+		"react-native": "^0.50.3",
+		"react-native-fbads": "^4.2.2",
+		"react-native-fbsdk": "^0.6.3",
+		"react-native-game-center": "^1.2.3",
+		"react-native-haptic": "^1.0.5",
+		"react-native-in-app-utils": "^6.0.0",
+		"react-native-sound": "^0.10.4",
+		"xcode": "^1.0.0"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
